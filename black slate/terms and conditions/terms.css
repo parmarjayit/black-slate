@@ -47,7 +47,7 @@
     padding: 3px;
     color:#00376E;
 }
-.navbar2 a:second-child{
+.navbar2 a:nth-child(5){
     background-color: #4CB5AB;
     color: white;
     border-radius: 5px;
@@ -98,7 +98,7 @@ p{
 .ppp{
     /* border: 1px solid green; */
     font-size: 14px;
-    margin-top: 5px;
+    margin-top: 44px;
     color: #5981a9;
     line-height: 1.8;
     /* height: 85px; */

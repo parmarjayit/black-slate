@@ -47,7 +47,7 @@
     padding: 3px;
     color:#00376E;
 }
-.navbar2 a:second-child{
+.navbar2 a:nth-child(2){
     background-color: #4CB5AB;
     color: white;
     border-radius: 5px;
@@ -115,7 +115,7 @@
 .secondbox2{
     /* border: 2px solid rgb(236, 16, 16); */
     width: 50%;
-    background-image: url(../img/dana.jpeg);
+    /* background-image: url(../img/dana.jpeg); */
     height: 346px;
     background-repeat: no-repeat;
     background-size: cover;
