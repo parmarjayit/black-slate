@@ -60,7 +60,7 @@
 
 .container2{
    
-    border: 1px solid red;
+    /* border: 1px solid red; */
    max-width:  1320px;
     margin: auto;
     padding-top: 30px;
@@ -75,8 +75,12 @@
 }
 .twobox1{
     /* border: 1px solid rgb(2, 14, 7); */
-    padding: 23px;
+    padding: 30px;
     width: 30%;
+    box-shadow: 0 0px 8px RGBA(0, 0, 0, 0.05);
+    padding-top: 70px;
+    
+   
 }
 .twobox2{
     /* border: 1px solid rgb(49, 77, 236); */
@@ -209,7 +213,7 @@
 
 
 .bigbox2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 35%;
     background-color: #0e5397;
 }
@@ -253,22 +257,275 @@ h1{
     padding-left: 50px;
     padding-right: 50px;
     font-family:  'Noto Sans', sans-serif;
+}
+.pic{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    display: flex;
+   padding-top: 100px;
+  padding-left: 0px;
+    
+    
+}
+.pic1{
+    display: flex;
+    width: 100px;
+}
+.imgg1{
+    width: 90px;
+    opacity: 0.5;
+}
+.imgg2{
+    width: 90px;
+    opacity: 0.5;
+}
+
+.imgg1:hover{
+    opacity: 1.0;
+}
+
+.imgg2:hover{
+    opacity: 1.0;
+}
+            
+
+
+/* {!----------------------------barista end-----------------}*/
+/* {!---------------------------product start-----------------}*/
+
+.container3{
+    border: 1px solid black;
+    max-width: 1320px;
+    /* padding: 100px; */
+    padding-top: 100px;
+    margin: auto;
+}
+.product{
+    /* border: 1px solid green; */
+    box-shadow: 0 0 12px RGBA(0, 0, 0, 0.11);
+    
+}
+.speci1{
+    /* border: 1px solid orange; */
+    /* padding: 40px; */
+    background-color: #f4fafa;
+    display: flex;
+    text-align: center;
    
+}
+.pro1 a{
+    color: #00376e;
+    font-size: 18px;
+}
+.pro2 a{
+    color: #00376e;
+    font-size: 18px;
+}
+.pro1{
+    border: 1px solid red;
+    width: 200px;
+    padding: 20px;
+}
+/* .pro1 a:hover{
+    border-bottom: #4cb5ab;
+}
+.pro2 a:hover{
+    border-bottom: #4cb5ab;
+} */
+
+.pro2{
+   border: 1px solid red;
+    width: 200px;
+    padding: 20px;
+}
+.speci2{
+    /* border: 1px solid orange; */
+    padding: 35px;
+}
+.speci2 p{
+   color: #5981a9;
+   font-size: 14px;
+   line-height: 1.8;
+}
+/* {!----------------------------product end------------------}*/
+/* {!----------------------------rating start------------------}*/
+
+.container4{
+    /* border: 1px solid red ; */
+    max-width: 1320px;
+    padding: 30px;
+    padding-top: 130px;
+    margin: auto;
+    
+    /* justify-content: center; */
+}
+.tool{
+    /* border: 1px solid black; */
+    /* padding: 100px; */
+    max-width: 1320px;
+}
+.rating{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+    color: #00376E;
+    line-height: 1.8;
+    font-size: 18px;
+    
+    
+}
+
+.ri-star-s-fill{
+    color: orange;
+   
+}
+#s{
+ color: gray;
+}
+.wat{
+    color: #00376E;
+    font-size:14px ;
+    padding-bottom: 15px;
+   
+}
+
+.padding-bottom{
+    padding-bottom: -1px;
+}
+.revi{
+    padding-bottom: 15px;
+}
+.sara1{
+    color: #5981A9;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: none;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+.lorem{
+    color: #5981a9;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.login{
+    padding-top: 70px;
+    
+}
+.login a{
+    color: #4cb5ab;
+    font-size: 14px;
+}
+
+/* {!----------------------------rating end------------------}*/
+/* {!------------------Recommended Products start-------------------------------} */
+
+.parmar{
+    border: 2px solid black;
+    max-width: 1320px;
+    margin: auto;
+    /* display: flex; */
+
+}
+.bigparmar{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.maintable{
+    /* border: 1px solid red; */
+    /* padding: 20px; */
+    width: 33.33%;
+    /* margin: 10px; */
+}
+.table{
+    /* border: 1px solid blue; */
+    padding: 20px;
+    width: 100%;
+}
+.card-img:hover .img-hover{
+    display: flex;
+}
+.card-img{
+    position: relative;
+}
+
+.card-img img{
+    width: 100%;
+}
+.img-hover{ 
+    position: absolute; 
+     left:50%; 
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    height: 80%;
+    display: none;
+    background-color: #5ebcb3a8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+}
+
+.img-hover button{
+    padding: 10px 20px;
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.img-hover button:hover{
+background-color: white;
+color: black;
+}
+
+.ri-search-line{
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px;
+    
+}
+
+.bar{
+    margin-bottom: 23px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #00376e;
+    font-family:'Noto Sans', sans-serif;
+    transition: 0.2s linear ;
+    text-decoration: none;
+    text-align: center;
+
+    
+}
+.Rs{
+    margin-bottom: 23px;
+    margin-top: 5px;
+    font-size: 18px;
+    color:#00376e;
+    font-family:'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.bar a:hover{
+    color:#4CB5AB ;
+}
+
+.center-text {
+    text-align: center;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-/* {!----------------------------barista end-----------------} */
+/* {!------------------Recommended Products end---------------------------}*/
 /* {!----------------------------footer start----------------------} */
 
 
