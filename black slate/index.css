@@ -271,16 +271,17 @@
 }
 
 
-.button button{
+.button a{
     padding:10px 20px;
     background-color: white;
+    width: 250px;
     border: 1px solid #4CB5AB ;
     color:#4CB5AB ;
     border-radius: 20px;
     margin-top: 30px;
    
 }
-.button button:hover{
+.button a:hover{
     background-color:#4CB5AB ;
     color:white
 }
@@ -330,6 +331,54 @@
     padding: 4px;
 }
 
+.card-img:hover .img-hover{
+    display: flex;
+}
+.card-img{
+    position: relative;
+}
+
+.card-img img{
+    width: 100%;
+}
+.img-hover{ 
+    position: absolute; 
+     left:50%; 
+    top:50%;
+    transform: translate(-50%, -50%);
+    width:80%;
+    height: 80%;
+    display: none;
+    background-color: #5ebcb3a8;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+}
+
+.img-hover button{
+    padding: 10px 20px;
+    background:transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.img-hover button:hover{
+background-color: white;
+color: black;
+}
+
+.ri-search-line{
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 0px 0px 10px;
+    
+}
+
+.line{
+    /* border: 1px solid black;    
+    border-bottom: 1px solid black; */
+}
 
 
 
