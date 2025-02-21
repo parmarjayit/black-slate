@@ -72,6 +72,7 @@
     /* border: 1px solid black; */
     /* padding: 50px; */
     display: flex;
+    
 }
 .twobox1{
     /* border: 1px solid rgb(2, 14, 7); */
@@ -95,10 +96,11 @@
     width: 65%;
     /* display: flex; */
    
+   
 }
 
 .forbox1{
-    /* border: 1px solid black; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.459);
    
     padding-top: 20px;
     padding-bottom: 40px;
@@ -128,7 +130,7 @@
  color: white;
 }
 
-.forbox2{
+/* .forbox2{
     border: 1px solid rgba(240, 233, 233, 0.514);
     border: left 1px;
     border-right:1px;
@@ -140,19 +142,19 @@
    padding-bottom: 40px;
    padding-left: 30px;
    
-}
+} */
 .forbox2 p{
     /* border: 1px solid white; */
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     
 }
-.forbox2 a{
+/* .forbox2 a{
     border: 1px solid white;
     color: white;
     padding: 5px;
     column-gap: 20px;
     display: flex;
-}
+} */
 
 .d-flex{
     display: flex;
@@ -183,9 +185,9 @@
     font-family:  'Noto Sans', sans-serif;
     font-weight: normal;
     padding: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+   
 }
 .ri-facebook-fill{
     color: #0e5397;
@@ -279,6 +281,7 @@ h1{
 .imgg2{
     width: 90px;
     opacity: 0.5;
+    
 }
 
 .imgg1:hover{
@@ -319,10 +322,10 @@ h1{
     font-size: 18px;
   
 }
-.pro2 a{
+/* .pro2 a{
     color: #00376e;
     font-size: 18px;
-}
+} */
 .pro1{
     border-bottom: 4px solid #62beb5;;
     width: 200px;
@@ -336,14 +339,14 @@ h1{
     border-bottom: #4cb5ab;
 } */
 
-.pro2{
+/* .pro2{
     border-right:1px dotted rgba(128, 128, 128, 0.301) ;
     width: 200px;
     padding: 20px;
 }
 .pro2:hover{
     border-bottom: 4px solid #62beb5;
-}
+} */
 .speci2{
     /* border: 1px solid orange; */
     padding: 35px;
@@ -387,7 +390,7 @@ h1{
  color: gray;
 }
 .wat{
-    color: #00376E;
+    color: #5981A9;
     font-size:14px ;
     padding-bottom: 15px;
    

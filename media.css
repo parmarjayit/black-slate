@@ -1,0 +1,36 @@
+ 
+
+
+@media (max-width:991px){
+    .navbar2{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .maintable{
+        width: 33.33%; 
+    }
+    .small1{
+      
+        width: 100%;
+      
+    }
+    .small2{
+       
+        width: 100%;
+}
+
+}
+@media (max-width:767){
+    .maintable{
+        width:50%;
+    }
+}
+
+
+@media (max-width:575px){
+    .maintable{
+        width:100%;
+    }
+}

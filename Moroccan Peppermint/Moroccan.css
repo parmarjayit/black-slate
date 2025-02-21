@@ -99,9 +99,9 @@
 
 .forbox1{
     /* border: 1px solid black; */
-   
-    padding-top: 20px;
-    padding-bottom: 40px;
+   border-bottom: 1px solid rgba(240, 233, 233, 0.514);
+    padding-top: 30px;
+    padding-bottom: 30px;
    
     
 }
@@ -129,14 +129,14 @@
 }
 
 .forbox2{
-    border: 1px solid rgba(240, 233, 233, 0.514);
+    border-bottom: 1px solid rgba(240, 233, 233, 0.514);
     border: left 1px;
     border-right:1px;
     padding: 10px;
     color: white;
     font-family:  'Noto Sans', sans-serif;
     font-weight: normal;
-    padding-top: 40px;
+    padding-top: 30px;
    padding-bottom: 40px;
    padding-left: 30px;
    
@@ -154,19 +154,45 @@
     display: flex;
 }
 
+.forbox22{
+    border-bottom: 1px solid rgba(240, 233, 233, 0.514);
+    border: left 1px;
+    border-right:1px;
+    padding: 10px;
+    color: white;
+    font-family:  'Noto Sans', sans-serif;
+    font-weight: normal;
+    padding-top: 30px;
+   padding-bottom: 20px;
+   padding-left: 30px;
+   
+}
+.forbox22 p{
+    /* border: 1px solid white; */
+    padding-bottom: 20px;
+    
+}
+.forbox22 a{
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    column-gap: 20px;
+    display: flex;
+}
+
 .d-flex{
     display: flex;
     column-gap: 10px;
 }
 .forbox3{
-    /* border: 1px solid red; */
+    border-bottom: 1px solid rgba(240, 233, 233, 0.514);
     color: white;
     font-family:  'Noto Sans', sans-serif;
     font-weight: normal;
     padding: 10px;
     padding-left: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .forbox3 p{
    font-size: 14px;
@@ -176,16 +202,16 @@
 }
 
 .forbox4{
-    border: 1px solid rgba(240, 233, 233, 0.514);
+    border-bottom: 1px solid rgba(240, 233, 233, 0.514);
     border-bottom: 1px;
     border-right: 1px;
     color: white;
     font-family:  'Noto Sans', sans-serif;
     font-weight: normal;
     padding: 30px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
 }
 .ri-facebook-fill{
     color: #0e5397;

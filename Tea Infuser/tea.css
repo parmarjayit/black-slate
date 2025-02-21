@@ -56,7 +56,7 @@
 }
 
 /* {!----------------------------navbar end-----------------} */
-/* {!----------------------------barista start------------------} */
+/* {!----------------------------tea start------------------} */
 
 .container2{
    
@@ -115,6 +115,8 @@
 .star{
     padding-left: 25px;
 }
+
+
 .star a{
     color: white;
     font-weight: normal;
@@ -137,8 +139,8 @@
     font-family:  'Noto Sans', sans-serif;
     font-weight: normal;
     padding-top: 40px;
-   padding-bottom: 40px;
-   padding-left: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
    
 }
 .forbox2 p{
@@ -185,7 +187,7 @@
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-bottom: 50px;
+    
 }
 .ri-facebook-fill{
     color: #0e5397;
@@ -275,10 +277,12 @@ h1{
 .imgg1{
     width: 90px;
     opacity: 0.5;
+    height: 70px;
 }
 .imgg2{
     width: 90px;
     opacity: 0.5;
+    height: 100px;
 }
 
 .imgg1:hover{
@@ -291,7 +295,7 @@ h1{
             
 
 
-/* {!----------------------------barista end-----------------}*/
+/* {!----------------------------tea end-----------------}*/
 /* {!---------------------------product start-----------------}*/
 
 .container3{
@@ -384,7 +388,7 @@ h1{
    
 }
 #s{
- color: gray;
+ color: orange;
 }
 .wat{
     color: #00376E;
